@@ -1,0 +1,10 @@
+{
+  "name": "renovate-issue-21826-fixture",
+  "private": true,
+  "packageManager": "pnpm@11.28.7",
+  "dependencies": {
+    "is-number": "6.0.0",
+    "is-odd": "2.0.0",
+    "is-even": "0.1.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabledManagers": [
+    "npm"
+  ],
+  "dependencyDashboard": true,
+  "automerge": false,
+  "rebaseWhen": "conflicted",
+  "ignorePaths": [
+    "scenarios/**"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "is-number",
+        "is-odd"
+      ],
+      "groupName": "fixture dependencies",
+      "separateMajorMinor": false
+    },
+    {
+      "matchPackageNames": [
+        "is-number"
+      ],
+      "allowedVersions": "7.0.0"
+    },
+    {
+      "matchPackageNames": [
+        "is-odd"
+      ],
+      "allowedVersions": "3.0.1"
+    },
+    {
+      "matchPackageNames": [
+        "is-even"
+      ],
+      "allowedVersions": "1.0.0"
+    }
+  ]
+}
